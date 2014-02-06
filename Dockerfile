@@ -1,16 +1,3 @@
-# XXX:
-# loop run script and/or watchdog and/or cfengine
-# fix syslogs...
-# dns config files - fetch generic and/or your own w/ environment?
-# document:
-  # default to vanilla caching server, note acls
-  # note fd limits/etc and the various workarounds if needed
-# conf file:
-  # do-daemonize: no (or -d ?) 
-  # add root-hints / verify current
-# dnssec configuration
-# RUN unbound-anchor (for dnssec)
-
 FROM ubuntu
 MAINTAINER George Lewis <schvin@schvin.net>
 RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
